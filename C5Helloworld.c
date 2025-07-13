@@ -5,6 +5,6 @@ int main() {
     printf("Hello Folksssss! \n");
     printf("Enter a sentence here : ");
     scanf("%[^\n]", s);  //scanset used
-    printf("You entered: %s\n", s);
+    printf("You entered: %s", s);
     return 0;
 }
